@@ -68,9 +68,9 @@
             this.btnCerrarSesión.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCerrarSesión.Image = global::Prototipo_1___SartorialSys.Properties.Resources.Icono_logout;
             this.btnCerrarSesión.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrarSesión.Location = new System.Drawing.Point(555, 12);
+            this.btnCerrarSesión.Location = new System.Drawing.Point(520, 12);
             this.btnCerrarSesión.Name = "btnCerrarSesión";
-            this.btnCerrarSesión.Size = new System.Drawing.Size(169, 49);
+            this.btnCerrarSesión.Size = new System.Drawing.Size(204, 49);
             this.btnCerrarSesión.TabIndex = 11;
             this.btnCerrarSesión.Text = "Cerrar Sesión\r\n";
             this.btnCerrarSesión.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -84,7 +84,7 @@
             this.btnAdministracion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdministracion.Location = new System.Drawing.Point(432, 326);
             this.btnAdministracion.Name = "btnAdministracion";
-            this.btnAdministracion.Size = new System.Drawing.Size(213, 83);
+            this.btnAdministracion.Size = new System.Drawing.Size(242, 83);
             this.btnAdministracion.TabIndex = 9;
             this.btnAdministracion.Text = "Administración";
             this.btnAdministracion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -95,9 +95,9 @@
             this.btnVentasYFacturación.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVentasYFacturación.Image = global::Prototipo_1___SartorialSys.Properties.Resources.icono_ventas;
             this.btnVentasYFacturación.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVentasYFacturación.Location = new System.Drawing.Point(222, 429);
+            this.btnVentasYFacturación.Location = new System.Drawing.Point(195, 426);
             this.btnVentasYFacturación.Name = "btnVentasYFacturación";
-            this.btnVentasYFacturación.Size = new System.Drawing.Size(274, 93);
+            this.btnVentasYFacturación.Size = new System.Drawing.Size(332, 93);
             this.btnVentasYFacturación.TabIndex = 8;
             this.btnVentasYFacturación.Text = "Ventas y Facturación";
             this.btnVentasYFacturación.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -110,7 +110,7 @@
             this.btnInventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInventario.Location = new System.Drawing.Point(76, 126);
             this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(213, 86);
+            this.btnInventario.Size = new System.Drawing.Size(243, 86);
             this.btnInventario.TabIndex = 7;
             this.btnInventario.Text = "Inventario";
             this.btnInventario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -123,7 +123,7 @@
             this.btnPedidos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPedidos.Location = new System.Drawing.Point(432, 220);
             this.btnPedidos.Name = "btnPedidos";
-            this.btnPedidos.Size = new System.Drawing.Size(157, 100);
+            this.btnPedidos.Size = new System.Drawing.Size(186, 100);
             this.btnPedidos.TabIndex = 6;
             this.btnPedidos.Text = "Pedidos";
             this.btnPedidos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -136,7 +136,7 @@
             this.btnProveedores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProveedores.Location = new System.Drawing.Point(76, 330);
             this.btnProveedores.Name = "btnProveedores";
-            this.btnProveedores.Size = new System.Drawing.Size(213, 79);
+            this.btnProveedores.Size = new System.Drawing.Size(243, 79);
             this.btnProveedores.TabIndex = 5;
             this.btnProveedores.Text = "Proveedores";
             this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -149,7 +149,7 @@
             this.btnEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEmpleados.Location = new System.Drawing.Point(76, 227);
             this.btnEmpleados.Name = "btnEmpleados";
-            this.btnEmpleados.Size = new System.Drawing.Size(213, 86);
+            this.btnEmpleados.Size = new System.Drawing.Size(243, 86);
             this.btnEmpleados.TabIndex = 4;
             this.btnEmpleados.Text = "Empleados";
             this.btnEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -162,7 +162,7 @@
             this.btnCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCliente.Location = new System.Drawing.Point(428, 128);
             this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(161, 79);
+            this.btnCliente.Size = new System.Drawing.Size(190, 79);
             this.btnCliente.TabIndex = 3;
             this.btnCliente.Text = "Clientes";
             this.btnCliente.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
