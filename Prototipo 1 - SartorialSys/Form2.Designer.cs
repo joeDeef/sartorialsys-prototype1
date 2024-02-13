@@ -30,15 +30,15 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.btnCerrarSesión = new System.Windows.Forms.Button();
-            this.btnAdministracion = new System.Windows.Forms.Button();
+            this.btnAdministración = new System.Windows.Forms.Button();
             this.btnVentasYFacturación = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
             this.btnPedidos = new System.Windows.Forms.Button();
             this.btnProveedores = new System.Windows.Forms.Button();
             this.btnEmpleados = new System.Windows.Forms.Button();
             this.btnCliente = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -62,6 +62,15 @@
             this.label2.Text = "Bienvenido: Usuario X";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 518);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(106, 16);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Copyrigth © 2024";
+            // 
             // btnCerrarSesión
             // 
             this.btnCerrarSesión.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -77,18 +86,19 @@
             this.btnCerrarSesión.UseVisualStyleBackColor = true;
             this.btnCerrarSesión.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // btnAdministracion
+            // btnAdministración
             // 
-            this.btnAdministracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdministracion.Image = global::Prototipo_1___SartorialSys.Properties.Resources.icono_administracion;
-            this.btnAdministracion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdministracion.Location = new System.Drawing.Point(432, 326);
-            this.btnAdministracion.Name = "btnAdministracion";
-            this.btnAdministracion.Size = new System.Drawing.Size(242, 83);
-            this.btnAdministracion.TabIndex = 9;
-            this.btnAdministracion.Text = "Administración";
-            this.btnAdministracion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAdministracion.UseVisualStyleBackColor = true;
+            this.btnAdministración.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdministración.Image = global::Prototipo_1___SartorialSys.Properties.Resources.icono_administracion;
+            this.btnAdministración.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdministración.Location = new System.Drawing.Point(432, 326);
+            this.btnAdministración.Name = "btnAdministración";
+            this.btnAdministración.Size = new System.Drawing.Size(242, 83);
+            this.btnAdministración.TabIndex = 9;
+            this.btnAdministración.Text = "Administración";
+            this.btnAdministración.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAdministración.UseVisualStyleBackColor = true;
+            this.btnAdministración.Click += new System.EventHandler(this.btnAdministración_Click);
             // 
             // btnVentasYFacturación
             // 
@@ -102,6 +112,7 @@
             this.btnVentasYFacturación.Text = "Ventas y Facturación";
             this.btnVentasYFacturación.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVentasYFacturación.UseVisualStyleBackColor = true;
+            this.btnVentasYFacturación.Click += new System.EventHandler(this.btnVentasYFacturación_Click);
             // 
             // btnInventario
             // 
@@ -115,6 +126,7 @@
             this.btnInventario.Text = "Inventario";
             this.btnInventario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnInventario.UseVisualStyleBackColor = true;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
             // 
             // btnPedidos
             // 
@@ -154,6 +166,7 @@
             this.btnEmpleados.Text = "Empleados";
             this.btnEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEmpleados.UseVisualStyleBackColor = true;
+            this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
             // btnCliente
             // 
@@ -169,15 +182,6 @@
             this.btnCliente.UseVisualStyleBackColor = true;
             this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 518);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 16);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Copyrigth © 2024";
-            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -185,7 +189,7 @@
             this.ClientSize = new System.Drawing.Size(736, 543);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnCerrarSesión);
-            this.Controls.Add(this.btnAdministracion);
+            this.Controls.Add(this.btnAdministración);
             this.Controls.Add(this.btnVentasYFacturación);
             this.Controls.Add(this.btnInventario);
             this.Controls.Add(this.btnPedidos);
@@ -195,7 +199,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmMenu";
-            this.Text = "Menu";
+            this.Text = "SartorialSys";
             this.Load += new System.EventHandler(this.frmMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -212,7 +216,7 @@
         private System.Windows.Forms.Button btnPedidos;
         private System.Windows.Forms.Button btnInventario;
         private System.Windows.Forms.Button btnVentasYFacturación;
-        private System.Windows.Forms.Button btnAdministracion;
+        private System.Windows.Forms.Button btnAdministración;
         private System.Windows.Forms.Button btnCerrarSesión;
         private System.Windows.Forms.Label label4;
     }

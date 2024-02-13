@@ -34,7 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.btnIniciarSesion = new System.Windows.Forms.Button();
+            this.btnIniciarSesión = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -86,16 +86,16 @@
             this.textBox2.TabIndex = 4;
             this.textBox2.UseSystemPasswordChar = true;
             // 
-            // btnIniciarSesion
+            // btnIniciarSesión
             // 
-            this.btnIniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciarSesion.Location = new System.Drawing.Point(228, 264);
-            this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(195, 29);
-            this.btnIniciarSesion.TabIndex = 5;
-            this.btnIniciarSesion.Text = "Iniciar Sesion";
-            this.btnIniciarSesion.UseVisualStyleBackColor = true;
-            this.btnIniciarSesion.Click += new System.EventHandler(this.btnIniciarSesion_Click);
+            this.btnIniciarSesión.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciarSesión.Location = new System.Drawing.Point(228, 264);
+            this.btnIniciarSesión.Name = "btnIniciarSesión";
+            this.btnIniciarSesión.Size = new System.Drawing.Size(195, 29);
+            this.btnIniciarSesión.TabIndex = 5;
+            this.btnIniciarSesión.Text = "Iniciar Sesión";
+            this.btnIniciarSesión.UseVisualStyleBackColor = true;
+            this.btnIniciarSesión.Click += new System.EventHandler(this.btnIniciarSesion_Click);
             // 
             // btnSalir
             // 
@@ -137,7 +137,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnIniciarSesion);
+            this.Controls.Add(this.btnIniciarSesión);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -160,7 +160,7 @@
         private System.Windows.Forms.Label label3;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button btnIniciarSesion;
+        private System.Windows.Forms.Button btnIniciarSesión;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;

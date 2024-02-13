@@ -42,5 +42,34 @@ namespace Prototipo_1___SartorialSys
         {
 
         }
+
+        private void btnInventario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEmpleados_Click(object sender, EventArgs e)
+        {
+            this.Visible=false;
+            this.Close();
+            frmEmpleados empleados = new frmEmpleados();
+            empleados.ShowDialog();
+        }
+
+        private void btnVentasYFacturación_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            this.Close();
+            frmVentas ventas = new frmVentas(); 
+            ventas.ShowDialog();
+        }
+
+        private void btnAdministración_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            this.Close();
+            frmAdministracion administracion = new frmAdministracion();
+            administracion.ShowDialog();
+        }
     }
 }

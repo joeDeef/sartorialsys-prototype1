@@ -163,6 +163,16 @@ namespace Prototipo_1___SartorialSys.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icono_parametros {
+            get {
+                object obj = ResourceManager.GetObject("icono_parametros", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icono_pedido {
             get {
                 object obj = ResourceManager.GetObject("icono_pedido", resourceCulture);

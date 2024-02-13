@@ -41,7 +41,7 @@ namespace Prototipo_1___SartorialSys
 
         private void checkDireccion_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkDireccion.Checked)
+            if (checkDirección.Checked)
             {
                 txtDireccionActualizar.Enabled = true;
             }
@@ -53,7 +53,7 @@ namespace Prototipo_1___SartorialSys
 
         private void checkTelefono_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkTelefono.Checked)
+            if (checkTeléfono.Checked)
             {
                 txtTelefonoActualizar.Enabled = true;
             }
@@ -92,10 +92,10 @@ namespace Prototipo_1___SartorialSys
 
         private void limpiarConsola()
         {
-            txtCedulaRegistrar.Text = "";
+            txtCédulaRegistrar.Text = "";
             txtNombresRegistrar.Text = "";
-            txtDireccionRegistrar.Text = "";
-            txtTelefonoRegistrar.Text = "";
+            txtDirecciónRegistrar.Text = "";
+            txtTeléfonoRegistrar.Text = "";
             txtEmailRegistrar.Text = "";
         }
 
@@ -122,16 +122,16 @@ namespace Prototipo_1___SartorialSys
 
         private void limpiarActualizacion()
         {
-            txtParametroParaActualizar.Text = ""; 
-            txtCedulaActualizar.Text = "";
+            txtParámetroParaActualizar.Text = ""; 
+            txtCédulaActualizar.Text = "";
             txtNombresActualizar.Enabled = false;
             checkNombres.Checked = false;
             txtNombresActualizar.Text = "";
             txtDireccionActualizar.Enabled = false;
-            checkDireccion.Checked = false;
+            checkDirección.Checked = false;
             txtDireccionActualizar.Text = "";
             txtTelefonoActualizar.Enabled = false;
-            checkTelefono.Checked = false;
+            checkTeléfono.Checked = false;
             txtTelefonoActualizar.Text = "";
             txtEmailActualizar.Enabled = false;
             checkEmail.Checked = false;
@@ -148,7 +148,7 @@ namespace Prototipo_1___SartorialSys
 
         private void btnBuscarParaActualizar_Click(object sender, EventArgs e)
         {
-            txtCedulaActualizar.Text = "1724915770";
+            txtCédulaActualizar.Text = "1724915770";
             txtNombresActualizar.Text = "Alan Brito Delgado";
             txtDireccionActualizar.Text = "La loma";
             txtTelefonoActualizar.Text = "0994306989";
@@ -167,11 +167,11 @@ namespace Prototipo_1___SartorialSys
 
         private void limpiarConsulta()
         {
-            txtParametroBusqueda.Text = "";
-            txtCedulaConsultar.Text = "";
+            txtParámetroBusqueda.Text = "";
+            txtCédulaConsultar.Text = "";
             txtNombresConsultar.Text = "";
-            txtDireccionConsultar.Text = "";
-            txtTelefonoConsultar.Text = "";
+            txtDirecciónConsultar.Text = "";
+            txtTeléfonoConsultar.Text = "";
             txtEmailConsultar.Text = "";
         }
 
@@ -182,10 +182,10 @@ namespace Prototipo_1___SartorialSys
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            txtCedulaConsultar.Text = "1724915770";
+            txtCédulaConsultar.Text = "1724915770";
             txtNombresConsultar.Text = "Alan Brito Delgado";
-            txtDireccionConsultar.Text = "La loma";
-            txtTelefonoConsultar.Text = "0994306989";
+            txtDirecciónConsultar.Text = "La loma";
+            txtTeléfonoConsultar.Text = "0994306989";
             txtEmailConsultar.Text = "alan.brito@epn.edu.ec";
         }
 
@@ -195,10 +195,10 @@ namespace Prototipo_1___SartorialSys
 
         private void button2_Click(object sender, EventArgs e)
         {
-            txtCedulaEliminar.Text = "1724915770";
+            txtCédulaEliminar.Text = "1724915770";
             txtNombresEliminar.Text = "Alan Brito Delgado";
-            txtDireccionEliminar.Text = "La loma";
-            txtTelefonoEliminar.Text = "0994306989";
+            txtDirecciónEliminar.Text = "La loma";
+            txtTeléfonoEliminar.Text = "0994306989";
             txtEmailEliminar.Text = "alan.brito@epn.edu.ec";
         }
 
@@ -209,11 +209,11 @@ namespace Prototipo_1___SartorialSys
 
         private void limpiarEliminar()
         {
-            txtParametroEliminar.Text = "";
-            txtCedulaEliminar.Text = "";
+            txtParámetroEliminar.Text = "";
+            txtCédulaEliminar.Text = "";
             txtNombresEliminar.Text = "";
-            txtDireccionEliminar.Text = "";
-            txtTelefonoEliminar.Text = "";
+            txtDirecciónEliminar.Text = "";
+            txtTeléfonoEliminar.Text = "";
             txtEmailEliminar.Text = "";
         }
 
@@ -221,6 +221,11 @@ namespace Prototipo_1___SartorialSys
         {
             DialogResult result = MessageBox.Show("Cliente Eliminado con exito");
             limpiarEliminar();
+        }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
