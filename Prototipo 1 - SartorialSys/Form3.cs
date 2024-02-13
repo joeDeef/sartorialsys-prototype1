@@ -10,28 +10,19 @@ using System.Windows.Forms;
 
 namespace Prototipo_1___SartorialSys
 {
-    public partial class frmInicio : Form
+    public partial class frmClientes : Form
     {
-        public frmInicio()
+        public frmClientes()
         {
             InitializeComponent();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void btnRegresar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void btnIniciarSesion_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;               //No se visualiza la ventana
+            this.Visible = false;
+            this.Close();
             frmMenu menu = new frmMenu();
             menu.ShowDialog();
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
