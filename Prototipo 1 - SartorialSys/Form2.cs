@@ -42,5 +42,29 @@ namespace Prototipo_1___SartorialSys
         {
 
         }
+
+        private void btnInventario_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            this.Close();
+            frmInventario frm = new frmInventario();
+            frm.ShowDialog();
+        }
+
+        private void btnPedidos_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            this.Close();
+            frmPedidos frm = new frmPedidos();
+            frm.ShowDialog();
+        }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            this.Close();
+            frmProveedores frm = new frmProveedores();
+            frm.ShowDialog();
+        }
     }
 }

@@ -219,8 +219,12 @@ namespace Prototipo_1___SartorialSys
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Cliente Eliminado con exito");
-            limpiarEliminar();
+            DialogResult dialogResult = MessageBox.Show("¿Estas seguro de querer eliminar el registro?", "Some Title", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                DialogResult result = MessageBox.Show("Cliente Eliminado con exito");
+                limpiarEliminar();
+            }
         }
     }
 }

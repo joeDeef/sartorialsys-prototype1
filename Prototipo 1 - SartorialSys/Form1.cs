@@ -41,12 +41,22 @@ namespace Prototipo_1___SartorialSys
 
         private void btnSalir_MouseEnter(object sender, EventArgs e)
         {
-            btnSalir.BackColor = Color.Bisque;
+            //btnSalir.BackColor = Color.Bisque;
         }
 
         private void btnSalir_MouseLeave(object sender, EventArgs e)
         {
-            btnSalir.BackColor = SystemColors.Control;
+           // btnSalir.BackColor = SystemColors.Control;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
