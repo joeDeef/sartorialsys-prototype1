@@ -142,6 +142,7 @@
             this.btnPedidos.Text = "Pedidos";
             this.btnPedidos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnPedidos.UseVisualStyleBackColor = true;
+            this.btnPedidos.Click += new System.EventHandler(this.btnPedidos_Click);
             // 
             // btnProveedores
             // 
@@ -155,6 +156,7 @@
             this.btnProveedores.Text = "Proveedores";
             this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnProveedores.UseVisualStyleBackColor = true;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // btnEmpleados
             // 
