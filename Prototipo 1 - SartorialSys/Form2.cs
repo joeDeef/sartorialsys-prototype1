@@ -45,6 +45,7 @@ namespace Prototipo_1___SartorialSys
 
         private void btnInventario_Click(object sender, EventArgs e)
         {
+
             this.Visible = false;
             this.Close();
             frmInventario frm = new frmInventario();
@@ -65,6 +66,7 @@ namespace Prototipo_1___SartorialSys
             this.Close();
             frmProveedores frm = new frmProveedores();
             frm.ShowDialog();
+
         }
     }
 }

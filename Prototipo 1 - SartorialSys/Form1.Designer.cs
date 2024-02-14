@@ -45,6 +45,7 @@
             // 
             // panel1
             // 
+
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(189)))), ((int)(((byte)(165)))));
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -61,6 +62,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(200, 200);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
+
             this.pictureBox1.TabStop = false;
             // 
             // label1
@@ -140,6 +142,7 @@
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUser);
+
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));

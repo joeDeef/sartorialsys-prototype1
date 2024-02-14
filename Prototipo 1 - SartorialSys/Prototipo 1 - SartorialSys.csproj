@@ -100,6 +100,7 @@
     </Compile>
     <Compile Include="Form12.Designer.cs">
       <DependentUpon>Form12.cs</DependentUpon>
+
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -117,6 +118,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form12.resx">
       <DependentUpon>Form12.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -191,6 +193,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Recursos\Icon_TrajesHidalgo.jpg" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
