@@ -26,7 +26,7 @@ namespace Prototipo_1___SartorialSys
         {
             this.Visible = false;
             this.Close();
-            frmInicio inicio = new frmInicio();
+            frmInicio2 inicio = new frmInicio2();
             inicio.ShowDialog();
         }
 

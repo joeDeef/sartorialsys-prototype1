@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prototipo_1___SartorialSys
 {
-    public partial class frmInicio : Form
+    public partial class frmInicio2 : Form
     {
-        public frmInicio()
+        public frmInicio2()
         {
             InitializeComponent();
         }
