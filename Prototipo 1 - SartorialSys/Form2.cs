@@ -71,5 +71,10 @@ namespace Prototipo_1___SartorialSys
             frmAdministracion administracion = new frmAdministracion();
             administracion.ShowDialog();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

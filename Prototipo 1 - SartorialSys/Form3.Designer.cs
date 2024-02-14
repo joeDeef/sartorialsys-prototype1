@@ -138,7 +138,7 @@
             // btnRegresar
             // 
             this.btnRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.Location = new System.Drawing.Point(666, 12);
+            this.btnRegresar.Location = new System.Drawing.Point(646, 12);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(122, 35);
             this.btnRegresar.TabIndex = 9;
@@ -150,7 +150,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(86, 52);
+            this.label2.Location = new System.Drawing.Point(121, 57);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 24);
             this.label2.TabIndex = 11;
@@ -186,9 +186,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(329, 50);
+            this.listBox1.Location = new System.Drawing.Point(329, 45);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(437, 284);
+            this.listBox1.Size = new System.Drawing.Size(437, 304);
             this.listBox1.TabIndex = 4;
             // 
             // label10
@@ -224,9 +224,9 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(178, 283);
+            this.btnCancelar.Location = new System.Drawing.Point(161, 282);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(95, 36);
+            this.btnCancelar.Size = new System.Drawing.Size(133, 45);
             this.btnCancelar.TabIndex = 12;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -234,9 +234,9 @@
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(46, 283);
+            this.btnInsertar.Location = new System.Drawing.Point(29, 282);
             this.btnInsertar.Name = "btnInsertar";
-            this.btnInsertar.Size = new System.Drawing.Size(95, 36);
+            this.btnInsertar.Size = new System.Drawing.Size(133, 45);
             this.btnInsertar.TabIndex = 11;
             this.btnInsertar.Text = "Registrar";
             this.btnInsertar.UseVisualStyleBackColor = true;
@@ -332,9 +332,9 @@
             // 
             // txtCédulaRegistrar
             // 
-            this.txtCédulaRegistrar.Location = new System.Drawing.Point(167, 62);
+            this.txtCédulaRegistrar.Location = new System.Drawing.Point(178, 62);
             this.txtCédulaRegistrar.Name = "txtCédulaRegistrar";
-            this.txtCédulaRegistrar.Size = new System.Drawing.Size(138, 26);
+            this.txtCédulaRegistrar.Size = new System.Drawing.Size(127, 26);
             this.txtCédulaRegistrar.TabIndex = 0;
             // 
             // tabActualizar
@@ -356,9 +356,9 @@
             // btnBuscarParaActualizar
             // 
             this.btnBuscarParaActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarParaActualizar.Location = new System.Drawing.Point(650, 25);
+            this.btnBuscarParaActualizar.Location = new System.Drawing.Point(649, 16);
             this.btnBuscarParaActualizar.Name = "btnBuscarParaActualizar";
-            this.btnBuscarParaActualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarParaActualizar.Size = new System.Drawing.Size(88, 42);
             this.btnBuscarParaActualizar.TabIndex = 6;
             this.btnBuscarParaActualizar.Text = "Buscar";
             this.btnBuscarParaActualizar.UseVisualStyleBackColor = true;
@@ -366,7 +366,7 @@
             // 
             // txtParámetroParaActualizar
             // 
-            this.txtParámetroParaActualizar.Location = new System.Drawing.Point(505, 24);
+            this.txtParámetroParaActualizar.Location = new System.Drawing.Point(508, 24);
             this.txtParámetroParaActualizar.Name = "txtParámetroParaActualizar";
             this.txtParámetroParaActualizar.Size = new System.Drawing.Size(123, 26);
             this.txtParámetroParaActualizar.TabIndex = 5;
@@ -377,7 +377,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(337, 24);
+            this.label11.Location = new System.Drawing.Point(337, 27);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(153, 20);
             this.label11.TabIndex = 4;
@@ -387,7 +387,7 @@
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 20;
-            this.listBox2.Location = new System.Drawing.Point(336, 73);
+            this.listBox2.Location = new System.Drawing.Point(335, 88);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(417, 264);
             this.listBox2.TabIndex = 3;
@@ -407,7 +407,7 @@
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.txtCédulaActualizar);
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Location = new System.Drawing.Point(6, 6);
+            this.groupBox2.Location = new System.Drawing.Point(5, 9);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(324, 343);
             this.groupBox2.TabIndex = 1;
@@ -465,7 +465,7 @@
             // 
             this.btnCancelarActualizacion.Location = new System.Drawing.Point(169, 259);
             this.btnCancelarActualizacion.Name = "btnCancelarActualizacion";
-            this.btnCancelarActualizacion.Size = new System.Drawing.Size(93, 42);
+            this.btnCancelarActualizacion.Size = new System.Drawing.Size(103, 54);
             this.btnCancelarActualizacion.TabIndex = 22;
             this.btnCancelarActualizacion.Text = "Cancelar";
             this.btnCancelarActualizacion.UseVisualStyleBackColor = true;
@@ -475,7 +475,7 @@
             // 
             this.btnActualizarCliente.Location = new System.Drawing.Point(51, 259);
             this.btnActualizarCliente.Name = "btnActualizarCliente";
-            this.btnActualizarCliente.Size = new System.Drawing.Size(93, 42);
+            this.btnActualizarCliente.Size = new System.Drawing.Size(103, 54);
             this.btnActualizarCliente.TabIndex = 21;
             this.btnActualizarCliente.Text = "Actualizar";
             this.btnActualizarCliente.UseVisualStyleBackColor = true;
@@ -569,7 +569,7 @@
             this.groupBox5.Controls.Add(this.label21);
             this.groupBox5.Controls.Add(this.label22);
             this.groupBox5.Controls.Add(this.txtCédulaConsultar);
-            this.groupBox5.Location = new System.Drawing.Point(371, 16);
+            this.groupBox5.Location = new System.Drawing.Point(352, 9);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(317, 343);
             this.groupBox5.TabIndex = 2;
@@ -678,9 +678,9 @@
             this.groupBox3.Controls.Add(this.label15);
             this.groupBox3.Controls.Add(this.cmboxParametroBusqueda);
             this.groupBox3.Controls.Add(this.label20);
-            this.groupBox3.Location = new System.Drawing.Point(6, 6);
+            this.groupBox3.Location = new System.Drawing.Point(6, 9);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(303, 343);
+            this.groupBox3.Size = new System.Drawing.Size(317, 343);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             // 
@@ -694,9 +694,9 @@
             // 
             // btnCancelarBusqueda
             // 
-            this.btnCancelarBusqueda.Location = new System.Drawing.Point(173, 168);
+            this.btnCancelarBusqueda.Location = new System.Drawing.Point(167, 168);
             this.btnCancelarBusqueda.Name = "btnCancelarBusqueda";
-            this.btnCancelarBusqueda.Size = new System.Drawing.Size(111, 32);
+            this.btnCancelarBusqueda.Size = new System.Drawing.Size(124, 45);
             this.btnCancelarBusqueda.TabIndex = 4;
             this.btnCancelarBusqueda.Text = "Cancelar";
             this.btnCancelarBusqueda.UseVisualStyleBackColor = true;
@@ -704,9 +704,9 @@
             // 
             // btnBuscarConsultar
             // 
-            this.btnBuscarConsultar.Location = new System.Drawing.Point(30, 168);
+            this.btnBuscarConsultar.Location = new System.Drawing.Point(24, 168);
             this.btnBuscarConsultar.Name = "btnBuscarConsultar";
-            this.btnBuscarConsultar.Size = new System.Drawing.Size(111, 32);
+            this.btnBuscarConsultar.Size = new System.Drawing.Size(124, 45);
             this.btnBuscarConsultar.TabIndex = 3;
             this.btnBuscarConsultar.Text = "Buscar";
             this.btnBuscarConsultar.UseVisualStyleBackColor = true;
@@ -727,9 +727,9 @@
             this.cmboxParametroBusqueda.Items.AddRange(new object[] {
             "Número de Cédula",
             "Nombres"});
-            this.cmboxParametroBusqueda.Location = new System.Drawing.Point(68, 92);
+            this.cmboxParametroBusqueda.Location = new System.Drawing.Point(38, 92);
             this.cmboxParametroBusqueda.Name = "cmboxParametroBusqueda";
-            this.cmboxParametroBusqueda.Size = new System.Drawing.Size(162, 28);
+            this.cmboxParametroBusqueda.Size = new System.Drawing.Size(223, 28);
             this.cmboxParametroBusqueda.TabIndex = 1;
             this.cmboxParametroBusqueda.Text = "Seleccione";
             // 
@@ -737,7 +737,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(90, 18);
+            this.label20.Location = new System.Drawing.Point(73, 18);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(152, 24);
             this.label20.TabIndex = 0;
@@ -769,9 +769,9 @@
             this.groupBox6.Controls.Add(this.label27);
             this.groupBox6.Controls.Add(this.label28);
             this.groupBox6.Controls.Add(this.txtCédulaEliminar);
-            this.groupBox6.Location = new System.Drawing.Point(376, 16);
+            this.groupBox6.Location = new System.Drawing.Point(322, 11);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(317, 343);
+            this.groupBox6.Size = new System.Drawing.Size(317, 328);
             this.groupBox6.TabIndex = 3;
             this.groupBox6.TabStop = false;
             // 
@@ -888,9 +888,9 @@
             this.groupBox4.Controls.Add(this.label16);
             this.groupBox4.Controls.Add(this.comboBox1);
             this.groupBox4.Controls.Add(this.label17);
-            this.groupBox4.Location = new System.Drawing.Point(12, 3);
+            this.groupBox4.Location = new System.Drawing.Point(8, 9);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(294, 347);
+            this.groupBox4.Size = new System.Drawing.Size(294, 332);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
             // 
@@ -958,7 +958,7 @@
             this.pictureBox1.Image = global::Prototipo_1___SartorialSys.Properties.Resources.icono_cliente;
             this.pictureBox1.Location = new System.Drawing.Point(16, 33);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 71);
+            this.pictureBox1.Size = new System.Drawing.Size(99, 102);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 

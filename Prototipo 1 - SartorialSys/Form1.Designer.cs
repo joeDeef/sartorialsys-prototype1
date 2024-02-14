@@ -45,7 +45,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Handwriting", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(143, 45);
+            this.label1.Location = new System.Drawing.Point(145, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(348, 33);
             this.label1.TabIndex = 0;
@@ -64,9 +64,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(187, 179);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 24);
+            this.label2.Size = new System.Drawing.Size(79, 24);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Usuario";
+            this.label2.Text = "Usuario:";
             // 
             // label3
             // 
@@ -74,9 +74,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(187, 213);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 24);
+            this.label3.Size = new System.Drawing.Size(111, 24);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Contraseña";
+            this.label3.Text = "Contraseña:";
             // 
             // textBox2
             // 
@@ -89,9 +89,9 @@
             // btnIniciarSesión
             // 
             this.btnIniciarSesión.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciarSesión.Location = new System.Drawing.Point(228, 264);
+            this.btnIniciarSesión.Location = new System.Drawing.Point(225, 264);
             this.btnIniciarSesión.Name = "btnIniciarSesión";
-            this.btnIniciarSesión.Size = new System.Drawing.Size(195, 29);
+            this.btnIniciarSesión.Size = new System.Drawing.Size(188, 46);
             this.btnIniciarSesión.TabIndex = 5;
             this.btnIniciarSesión.Text = "Iniciar Sesión";
             this.btnIniciarSesión.UseVisualStyleBackColor = true;
@@ -100,9 +100,9 @@
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(266, 308);
+            this.btnSalir.Location = new System.Drawing.Point(259, 316);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(100, 29);
+            this.btnSalir.Size = new System.Drawing.Size(107, 39);
             this.btnSalir.TabIndex = 6;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -123,9 +123,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Prototipo_1___SartorialSys.Properties.Resources.icono_cliente1;
-            this.pictureBox1.Location = new System.Drawing.Point(296, 98);
+            this.pictureBox1.Location = new System.Drawing.Point(273, 98);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(70, 65);
+            this.pictureBox1.Size = new System.Drawing.Size(93, 77);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 

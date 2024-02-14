@@ -122,7 +122,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(92, 68);
+            this.label2.Location = new System.Drawing.Point(132, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(236, 24);
             this.label2.TabIndex = 15;
@@ -152,7 +152,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(111, 92);
+            this.label3.Location = new System.Drawing.Point(151, 91);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 16);
             this.label3.TabIndex = 17;
@@ -163,7 +163,7 @@
             this.pictureBox1.Image = global::Prototipo_1___SartorialSys.Properties.Resources.icono_nuevoCliente;
             this.pictureBox1.Location = new System.Drawing.Point(22, 53);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 71);
+            this.pictureBox1.Size = new System.Drawing.Size(104, 71);
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
             // 
@@ -249,7 +249,7 @@
             "Empleado",
             "Contador",
             "Pasante"});
-            this.comboBoxRolRegistrar.Location = new System.Drawing.Point(138, 156);
+            this.comboBoxRolRegistrar.Location = new System.Drawing.Point(161, 155);
             this.comboBoxRolRegistrar.Name = "comboBoxRolRegistrar";
             this.comboBoxRolRegistrar.Size = new System.Drawing.Size(150, 28);
             this.comboBoxRolRegistrar.TabIndex = 14;
@@ -269,7 +269,7 @@
             // 
             this.btnCancelar.Location = new System.Drawing.Point(170, 212);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(95, 36);
+            this.btnCancelar.Size = new System.Drawing.Size(121, 36);
             this.btnCancelar.TabIndex = 12;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -277,9 +277,9 @@
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(50, 212);
+            this.btnInsertar.Location = new System.Drawing.Point(21, 212);
             this.btnInsertar.Name = "btnInsertar";
-            this.btnInsertar.Size = new System.Drawing.Size(95, 36);
+            this.btnInsertar.Size = new System.Drawing.Size(121, 36);
             this.btnInsertar.TabIndex = 11;
             this.btnInsertar.Text = "Registrar";
             this.btnInsertar.UseVisualStyleBackColor = true;
@@ -287,14 +287,14 @@
             // 
             // txtCódigoTrabajadorRegistrar
             // 
-            this.txtCódigoTrabajadorRegistrar.Location = new System.Drawing.Point(170, 59);
+            this.txtCódigoTrabajadorRegistrar.Location = new System.Drawing.Point(193, 59);
             this.txtCódigoTrabajadorRegistrar.Name = "txtCódigoTrabajadorRegistrar";
             this.txtCódigoTrabajadorRegistrar.Size = new System.Drawing.Size(118, 26);
             this.txtCódigoTrabajadorRegistrar.TabIndex = 8;
             // 
             // txtContraseñaRegistrar
             // 
-            this.txtContraseñaRegistrar.Location = new System.Drawing.Point(138, 123);
+            this.txtContraseñaRegistrar.Location = new System.Drawing.Point(161, 123);
             this.txtContraseñaRegistrar.Name = "txtContraseñaRegistrar";
             this.txtContraseñaRegistrar.Size = new System.Drawing.Size(150, 26);
             this.txtContraseñaRegistrar.TabIndex = 7;
@@ -341,7 +341,7 @@
             // 
             // txtUsuarioRegistrar
             // 
-            this.txtUsuarioRegistrar.Location = new System.Drawing.Point(138, 91);
+            this.txtUsuarioRegistrar.Location = new System.Drawing.Point(161, 91);
             this.txtUsuarioRegistrar.Name = "txtUsuarioRegistrar";
             this.txtUsuarioRegistrar.Size = new System.Drawing.Size(150, 26);
             this.txtUsuarioRegistrar.TabIndex = 0;
@@ -365,9 +365,9 @@
             // btnBuscarParaActualizar
             // 
             this.btnBuscarParaActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarParaActualizar.Location = new System.Drawing.Point(650, 25);
+            this.btnBuscarParaActualizar.Location = new System.Drawing.Point(677, 14);
             this.btnBuscarParaActualizar.Name = "btnBuscarParaActualizar";
-            this.btnBuscarParaActualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarParaActualizar.Size = new System.Drawing.Size(89, 46);
             this.btnBuscarParaActualizar.TabIndex = 6;
             this.btnBuscarParaActualizar.Text = "Buscar";
             this.btnBuscarParaActualizar.UseVisualStyleBackColor = true;
@@ -375,7 +375,7 @@
             // 
             // txtParámetroParaActualizar
             // 
-            this.txtParámetroParaActualizar.Location = new System.Drawing.Point(505, 24);
+            this.txtParámetroParaActualizar.Location = new System.Drawing.Point(548, 23);
             this.txtParámetroParaActualizar.Name = "txtParámetroParaActualizar";
             this.txtParámetroParaActualizar.Size = new System.Drawing.Size(123, 26);
             this.txtParámetroParaActualizar.TabIndex = 5;
@@ -384,7 +384,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(337, 24);
+            this.label12.Location = new System.Drawing.Point(368, 24);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(151, 20);
             this.label12.TabIndex = 4;
@@ -394,9 +394,9 @@
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 20;
-            this.listBox2.Location = new System.Drawing.Point(336, 73);
+            this.listBox2.Location = new System.Drawing.Point(372, 73);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(417, 224);
+            this.listBox2.Size = new System.Drawing.Size(381, 224);
             this.listBox2.TabIndex = 3;
             // 
             // groupBox2
@@ -414,7 +414,7 @@
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Location = new System.Drawing.Point(6, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(324, 288);
+            this.groupBox2.Size = new System.Drawing.Size(356, 288);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
@@ -429,7 +429,7 @@
             "Empleado",
             "Contador",
             "Pasante"});
-            this.comboBoxRolActualizar.Location = new System.Drawing.Point(167, 177);
+            this.comboBoxRolActualizar.Location = new System.Drawing.Point(195, 177);
             this.comboBoxRolActualizar.Name = "comboBoxRolActualizar";
             this.comboBoxRolActualizar.Size = new System.Drawing.Size(150, 28);
             this.comboBoxRolActualizar.TabIndex = 29;
@@ -452,7 +452,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(17, 99);
+            this.label7.Location = new System.Drawing.Point(12, 99);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(64, 18);
             this.label7.TabIndex = 27;
@@ -474,7 +474,7 @@
             // 
             this.btnCancelarActualizacion.Location = new System.Drawing.Point(169, 236);
             this.btnCancelarActualizacion.Name = "btnCancelarActualizacion";
-            this.btnCancelarActualizacion.Size = new System.Drawing.Size(93, 42);
+            this.btnCancelarActualizacion.Size = new System.Drawing.Size(127, 42);
             this.btnCancelarActualizacion.TabIndex = 22;
             this.btnCancelarActualizacion.Text = "Cancelar";
             this.btnCancelarActualizacion.UseVisualStyleBackColor = true;
@@ -482,9 +482,9 @@
             // 
             // btnActualizarCliente
             // 
-            this.btnActualizarCliente.Location = new System.Drawing.Point(51, 236);
+            this.btnActualizarCliente.Location = new System.Drawing.Point(30, 236);
             this.btnActualizarCliente.Name = "btnActualizarCliente";
-            this.btnActualizarCliente.Size = new System.Drawing.Size(93, 42);
+            this.btnActualizarCliente.Size = new System.Drawing.Size(127, 42);
             this.btnActualizarCliente.TabIndex = 21;
             this.btnActualizarCliente.Text = "Actualizar";
             this.btnActualizarCliente.UseVisualStyleBackColor = true;
@@ -493,25 +493,25 @@
             // txtContraseñaActualizar
             // 
             this.txtContraseñaActualizar.Enabled = false;
-            this.txtContraseñaActualizar.Location = new System.Drawing.Point(169, 138);
+            this.txtContraseñaActualizar.Location = new System.Drawing.Point(196, 136);
             this.txtContraseñaActualizar.Name = "txtContraseñaActualizar";
-            this.txtContraseñaActualizar.Size = new System.Drawing.Size(149, 26);
+            this.txtContraseñaActualizar.Size = new System.Drawing.Size(150, 26);
             this.txtContraseñaActualizar.TabIndex = 20;
             this.txtContraseñaActualizar.TextChanged += new System.EventHandler(this.txtEmailActualizar_TextChanged);
             // 
             // txtUsuarioActualizar
             // 
             this.txtUsuarioActualizar.Enabled = false;
-            this.txtUsuarioActualizar.Location = new System.Drawing.Point(167, 95);
+            this.txtUsuarioActualizar.Location = new System.Drawing.Point(195, 95);
             this.txtUsuarioActualizar.Name = "txtUsuarioActualizar";
-            this.txtUsuarioActualizar.Size = new System.Drawing.Size(151, 26);
+            this.txtUsuarioActualizar.Size = new System.Drawing.Size(150, 26);
             this.txtUsuarioActualizar.TabIndex = 17;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(11, 62);
+            this.label14.Location = new System.Drawing.Point(12, 62);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(158, 18);
             this.label14.TabIndex = 12;
@@ -520,9 +520,9 @@
             // txtCédulaActualizar
             // 
             this.txtCédulaActualizar.Enabled = false;
-            this.txtCédulaActualizar.Location = new System.Drawing.Point(167, 58);
+            this.txtCédulaActualizar.Location = new System.Drawing.Point(195, 58);
             this.txtCédulaActualizar.Name = "txtCédulaActualizar";
-            this.txtCédulaActualizar.Size = new System.Drawing.Size(151, 26);
+            this.txtCédulaActualizar.Size = new System.Drawing.Size(150, 26);
             this.txtCédulaActualizar.TabIndex = 11;
             // 
             // label13
@@ -561,13 +561,13 @@
             this.groupBox5.Controls.Add(this.label22);
             this.groupBox5.Location = new System.Drawing.Point(333, 15);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(317, 281);
+            this.groupBox5.Size = new System.Drawing.Size(363, 281);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
             // 
             // txtRolConsultar
             // 
-            this.txtRolConsultar.Location = new System.Drawing.Point(145, 178);
+            this.txtRolConsultar.Location = new System.Drawing.Point(192, 174);
             this.txtRolConsultar.Name = "txtRolConsultar";
             this.txtRolConsultar.Size = new System.Drawing.Size(150, 26);
             this.txtRolConsultar.TabIndex = 22;
@@ -585,15 +585,15 @@
             // 
             // txtCódigoTrabajadorConsultar
             // 
-            this.txtCódigoTrabajadorConsultar.Location = new System.Drawing.Point(177, 78);
+            this.txtCódigoTrabajadorConsultar.Location = new System.Drawing.Point(192, 78);
             this.txtCódigoTrabajadorConsultar.Name = "txtCódigoTrabajadorConsultar";
-            this.txtCódigoTrabajadorConsultar.Size = new System.Drawing.Size(118, 26);
+            this.txtCódigoTrabajadorConsultar.Size = new System.Drawing.Size(150, 26);
             this.txtCódigoTrabajadorConsultar.TabIndex = 20;
             this.txtCódigoTrabajadorConsultar.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtContraseñaConsultar
             // 
-            this.txtContraseñaConsultar.Location = new System.Drawing.Point(145, 142);
+            this.txtContraseñaConsultar.Location = new System.Drawing.Point(192, 142);
             this.txtContraseñaConsultar.Name = "txtContraseñaConsultar";
             this.txtContraseñaConsultar.Size = new System.Drawing.Size(150, 26);
             this.txtContraseñaConsultar.TabIndex = 19;
@@ -634,7 +634,7 @@
             // 
             // txtUsuarioConsultar
             // 
-            this.txtUsuarioConsultar.Location = new System.Drawing.Point(145, 110);
+            this.txtUsuarioConsultar.Location = new System.Drawing.Point(192, 110);
             this.txtUsuarioConsultar.Name = "txtUsuarioConsultar";
             this.txtUsuarioConsultar.Size = new System.Drawing.Size(150, 26);
             this.txtUsuarioConsultar.TabIndex = 15;
@@ -706,9 +706,9 @@
             this.cmboxParametroBusqueda.Items.AddRange(new object[] {
             "Código del Trabajador",
             "Usuario"});
-            this.cmboxParametroBusqueda.Location = new System.Drawing.Point(68, 92);
+            this.cmboxParametroBusqueda.Location = new System.Drawing.Point(29, 92);
             this.cmboxParametroBusqueda.Name = "cmboxParametroBusqueda";
-            this.cmboxParametroBusqueda.Size = new System.Drawing.Size(162, 28);
+            this.cmboxParametroBusqueda.Size = new System.Drawing.Size(241, 28);
             this.cmboxParametroBusqueda.TabIndex = 1;
             this.cmboxParametroBusqueda.Text = "Seleccione";
             // 
@@ -748,7 +748,7 @@
             this.groupBox6.Controls.Add(this.label26);
             this.groupBox6.Location = new System.Drawing.Point(330, 21);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(317, 268);
+            this.groupBox6.Size = new System.Drawing.Size(352, 268);
             this.groupBox6.TabIndex = 3;
             this.groupBox6.TabStop = false;
             // 
@@ -764,7 +764,7 @@
             // 
             // txtRolEliminar
             // 
-            this.txtRolEliminar.Location = new System.Drawing.Point(145, 178);
+            this.txtRolEliminar.Location = new System.Drawing.Point(196, 178);
             this.txtRolEliminar.Name = "txtRolEliminar";
             this.txtRolEliminar.Size = new System.Drawing.Size(150, 26);
             this.txtRolEliminar.TabIndex = 22;
@@ -781,14 +781,14 @@
             // 
             // txtCódigoEliminar
             // 
-            this.txtCódigoEliminar.Location = new System.Drawing.Point(177, 78);
+            this.txtCódigoEliminar.Location = new System.Drawing.Point(196, 78);
             this.txtCódigoEliminar.Name = "txtCódigoEliminar";
-            this.txtCódigoEliminar.Size = new System.Drawing.Size(118, 26);
+            this.txtCódigoEliminar.Size = new System.Drawing.Size(150, 26);
             this.txtCódigoEliminar.TabIndex = 20;
             // 
             // txtContraseñaEliminar
             // 
-            this.txtContraseñaEliminar.Location = new System.Drawing.Point(145, 142);
+            this.txtContraseñaEliminar.Location = new System.Drawing.Point(196, 142);
             this.txtContraseñaEliminar.Name = "txtContraseñaEliminar";
             this.txtContraseñaEliminar.Size = new System.Drawing.Size(150, 26);
             this.txtContraseñaEliminar.TabIndex = 19;
@@ -825,7 +825,7 @@
             // 
             // txtUsuarioEliminar
             // 
-            this.txtUsuarioEliminar.Location = new System.Drawing.Point(145, 110);
+            this.txtUsuarioEliminar.Location = new System.Drawing.Point(196, 110);
             this.txtUsuarioEliminar.Name = "txtUsuarioEliminar";
             this.txtUsuarioEliminar.Size = new System.Drawing.Size(150, 26);
             this.txtUsuarioEliminar.TabIndex = 15;
@@ -860,15 +860,15 @@
             this.comboBoxParámetroEliminar.Items.AddRange(new object[] {
             "Código del trabajador",
             "Usuario"});
-            this.comboBoxParámetroEliminar.Location = new System.Drawing.Point(75, 90);
+            this.comboBoxParámetroEliminar.Location = new System.Drawing.Point(27, 90);
             this.comboBoxParámetroEliminar.Name = "comboBoxParámetroEliminar";
-            this.comboBoxParámetroEliminar.Size = new System.Drawing.Size(162, 28);
+            this.comboBoxParámetroEliminar.Size = new System.Drawing.Size(232, 28);
             this.comboBoxParámetroEliminar.TabIndex = 6;
             this.comboBoxParámetroEliminar.Text = "Seleccione";
             // 
             // txtParámetroEliminar
             // 
-            this.txtParámetroEliminar.Location = new System.Drawing.Point(74, 124);
+            this.txtParámetroEliminar.Location = new System.Drawing.Point(62, 124);
             this.txtParámetroEliminar.Name = "txtParámetroEliminar";
             this.txtParámetroEliminar.Size = new System.Drawing.Size(162, 26);
             this.txtParámetroEliminar.TabIndex = 5;

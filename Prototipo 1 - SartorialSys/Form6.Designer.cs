@@ -63,7 +63,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(99, 82);
+            this.label2.Location = new System.Drawing.Point(124, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(236, 24);
             this.label2.TabIndex = 15;
@@ -102,7 +102,7 @@
             this.pictureBox1.Image = global::Prototipo_1___SartorialSys.Properties.Resources.icono_administracion;
             this.pictureBox1.Location = new System.Drawing.Point(18, 61);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 71);
+            this.pictureBox1.Size = new System.Drawing.Size(90, 91);
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
             // 
@@ -119,7 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(570, 362);
+            this.ClientSize = new System.Drawing.Size(570, 320);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnParámetros);
             this.Controls.Add(this.button1);
