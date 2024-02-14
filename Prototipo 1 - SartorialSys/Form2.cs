@@ -45,8 +45,16 @@ namespace Prototipo_1___SartorialSys
 
         private void btnInventario_Click(object sender, EventArgs e)
         {
+            this.Visible=false;
+            this.Close();
+            frmInventario inventario = new frmInventario();
+            inventario.ShowDialog();
+        }
 
-            this.Visible = false;
+        private void btnEmpleados_Click(object sender, EventArgs e)
+        {
+            this.Visible=false;
+
             this.Close();
             frmInventario frm = new frmInventario();
             frm.ShowDialog();
@@ -67,6 +75,22 @@ namespace Prototipo_1___SartorialSys
             frmProveedores frm = new frmProveedores();
             frm.ShowDialog();
 
+        }
+
+        private void btnPedidos_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            this.Close();
+            frmPedidos pedidos = new frmPedidos();
+            pedidos.ShowDialog();
+        }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            this.Close();
+            frmProveedores proveedores = new frmProveedores();
+            proveedores.ShowDialog();
         }
     }
 }
