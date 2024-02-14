@@ -10,43 +10,31 @@ using System.Windows.Forms;
 
 namespace Prototipo_1___SartorialSys
 {
-    public partial class frmInicio : Form
+    public partial class frmInicio2 : Form
     {
-        public frmInicio()
+        public frmInicio2()
         {
             InitializeComponent();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        private void btnMinimizar_Click(object sender, EventArgs e)
         {
-            this.Visible = false;               //No se visualiza la ventana
-            frmMenu menu = new frmMenu();
-            menu.ShowDialog();
+            this.WindowState = FormWindowState.Minimized;
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmInicio_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnSalir_MouseEnter(object sender, EventArgs e)
+        private void frmInicio2_Load(object sender, EventArgs e)
         {
-            btnSalir.BackColor = Color.Bisque;
-        }
 
-        private void btnSalir_MouseLeave(object sender, EventArgs e)
-        {
-            btnSalir.BackColor = SystemColors.Control;
         }
     }
 }
